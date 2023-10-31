@@ -40,7 +40,7 @@ section#login {
 section#login > div#imagem {
     display: block;
     background-color: var(--cor-2);
-    background-image: url('/imagens/imagem-predio.jpg');
+    background-image: url('../imagens/imagem-predio.jpg');
     background-position: center, center;
     background-repeat: no-repeat;
     background-size: cover;
