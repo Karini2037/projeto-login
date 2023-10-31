@@ -35,6 +35,8 @@ section#login {
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+    transition: width 0.5s height 0.5s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem {
@@ -44,8 +46,6 @@ section#login > div#imagem {
     background-position: center, center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
-    width: 250px;
     height: 200px;
 }
 
